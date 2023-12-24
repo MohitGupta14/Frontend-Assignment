@@ -44,7 +44,7 @@ Formify is a powerful tool that simplifies the process of generating forms from 
 1. Provide your JSON data as input.
 2. Customize form options as needed.
 3. Generate the form in your desired format.
-```
+
 
 
 <img width="1453" alt="Screenshot 2023-12-24 at 8 47 35 PM" src="https://github.com/MohitGupta14/Frontend-Assignment/assets/81846020/350a1e33-a186-404c-8020-56b2151afe0b">
