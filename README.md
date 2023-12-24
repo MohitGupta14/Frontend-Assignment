@@ -1,6 +1,6 @@
 Certainly! Here's a README.md template for your Formify project:
 
-```markdown
+
 # Formify
 
 **Effortlessly transform your JSON data into interactive forms.**
@@ -46,8 +46,8 @@ Formify is a powerful tool that simplifies the process of generating forms from 
 3. Generate the form in your desired format.
 ```
 
-Feel free to adjust the formatting or add more sections based on the specific details and instructions for your project.
 
-![image](https://github.com/MohitGupta14/Frontend-Assignment/assets/81846020/ea2ed627-a075-49e4-87ba-31fac5d28b71)
+<img width="1453" alt="Screenshot 2023-12-24 at 8 47 35 PM" src="https://github.com/MohitGupta14/Frontend-Assignment/assets/81846020/350a1e33-a186-404c-8020-56b2151afe0b">
+
 
 
