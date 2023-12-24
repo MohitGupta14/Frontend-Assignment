@@ -1,6 +1,3 @@
-Certainly! Here's a README.md template for your Formify project:
-
-
 # Formify
 
 **Effortlessly transform your JSON data into interactive forms.**
