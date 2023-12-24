@@ -36,7 +36,9 @@ const FormComponent = ({ schema }) => {
   };
 
   const renderSubParameters = (fields) => {
-    return fields.map((schema) => {
+    return fields.map((schema, index) => {
+      const key = schema.uiType === "Ignore" ? schema.someUniqueIdentifier : index;
+  
       if (schema.uiType === "Ignore") {
         if (
           schema.conditions.some(
@@ -47,19 +49,20 @@ const FormComponent = ({ schema }) => {
               condition.action === "enable"
           )
         ) {
-          return renderSubParameters(schema.subParameters);
+          return <div key={key}>{renderSubParameters(schema.subParameters)}</div>;
         }
       } else if (schema.uiType === "Select") {
-        return <SelectField schema={schema} />;
+        return <SelectField key={key} schema={schema} />;
       } else if (schema.uiType === "Input") {
-        return <InputField schema={schema} />;
+        return <InputField key={key} schema={schema} />;
       } else if (schema.uiType === "Switch") {
-        return <SwitchField schema={schema} />;
+        return <SwitchField key={key} schema={schema} />;
       }
-
+  
       return null;
     });
   };
+  
 
   return (
     <div>
